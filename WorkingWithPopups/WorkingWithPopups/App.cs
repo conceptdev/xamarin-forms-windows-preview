@@ -7,11 +7,6 @@ namespace WorkingWithPopups
 	{
 		public App ()
 		{
-            if (Device.Idiom == TargetIdiom.Phone && Device.OS == TargetPlatform.Windows)
-            { // HACK: TabbedPage not working on Windows Phone
-                MainPage = new AlertPage();
-                return;
-            }
 			var tabs = new TabbedPage ();
 			tabs.Children.Add(new AlertPage { Title = "Alerts", Icon="csharp.png"});
 			tabs.Children.Add(new ActionSheetPage {Title = "ActionSheets", Icon="csharp.png"});

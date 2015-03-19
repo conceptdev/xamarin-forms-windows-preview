@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithPopups.WinPhone"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithPopups.WinPhone81", "WinPhone81\WorkingWithPopups.WinPhone81.csproj", "{5E025CF2-F071-45AC-A578-2AD3560EE646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithPopups.WinStore", "WinStore\WorkingWithPopups.WinStore.csproj", "{98DAB5C4-786C-43F1-9CF3-F7FD37A44FB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithPopups.WinApp", "WinStore\WorkingWithPopups.WinApp.csproj", "{98DAB5C4-786C-43F1-9CF3-F7FD37A44FB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
