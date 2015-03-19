@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithListview.Android
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithListview.WinPhone", "WinPhone\WorkingWithListview.WinPhone.csproj", "{DEEA7150-2898-43FB-BA6D-6DAA5A5665C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithListview.WinStore", "WinStore\WorkingWithListview.WinStore.csproj", "{BE4438E6-0C96-47F6-A0A1-8D86E2116A85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithListview.WinApp", "WinStore\WorkingWithListview.WinApp.csproj", "{BE4438E6-0C96-47F6-A0A1-8D86E2116A85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithListview.WinPhone81", "WinPhone81\WorkingWithListview.WinPhone81.csproj", "{8D059840-8FAB-4CE7-A735-44D56AB730E4}"
 EndProject

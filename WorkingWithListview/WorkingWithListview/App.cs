@@ -13,11 +13,7 @@ namespace WorkingWithListview
 			//
 			// the code (and xaml) for each page is contained in a separate folder in this project
 			//
-            if (Device.Idiom == TargetIdiom.Phone && Device.OS == TargetPlatform.Windows)
-            {   //HACK: TabbedPage seems broken on Windows Phone 8.1
-                MainPage = new CustomCellPage();
-                return;
-            }
+            
             // USE C#
 
             var tabs = new TabbedPage { Title = "Working with ListView" };
