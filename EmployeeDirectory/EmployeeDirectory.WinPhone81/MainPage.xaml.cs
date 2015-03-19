@@ -31,8 +31,8 @@ namespace EmployeeDirectory.WinPhone81
             this.NavigationCacheMode = NavigationCacheMode.Required;
 
             //HACK: this is super-dodgy, sorry!
-            CopyInfoIntoWorkingFolder("XamarinDirectory.csv");
-            CopyInfoIntoWorkingFolder("XamarinFavorites.xml");
+           // CopyInfoIntoWorkingFolder("XamarinDirectory.csv");
+           // CopyInfoIntoWorkingFolder("XamarinFavorites.xml");
 
             LoadApplication(new EmployeeDirectoryUI.App());
         }

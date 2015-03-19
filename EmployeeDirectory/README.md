@@ -1,5 +1,18 @@
-Employee Directory
+Employee Directory (Windows)
 ==========
+
+Windows and Windows Phone versions for the [Windows PREVIEW](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/).
+
+![screenshot](Screenshots/windows1.png "Windows")
+
+![screenshot](Screenshots/windows2.png "Windows")
+
+![screenshot](Screenshots/windows3.png "Windows")
+
+
+
+Notes
+-----
 
 This contacts application is Xamarin.Forms port of the [existing pre-build app](http://xamarin.com/prebuilt/employeedirectory). 
 With Xamarin.Forms you can use C# or XAML to create layout and this sample app shows how to use both of them. To switch between user interface implementations open  ~/EmployeeDirectory/EmployeeDirectoryUI/App.cs file and change `uiImplementation` variable. 
