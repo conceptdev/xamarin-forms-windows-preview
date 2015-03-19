@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.WinPhone"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.WinPhone81", "WinPhone81\WorkingWithColors.WinPhone81.csproj", "{304FB058-6DDD-42F5-A692-B0750DC167F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.WinUniversal", "WinUniversal\WorkingWithColors.WinUniversal.csproj", "{D858EA99-F185-4299-9868-659DD37DAB26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.WinApp", "WinUniversal\WorkingWithColors.WinApp.csproj", "{D858EA99-F185-4299-9868-659DD37DAB26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
