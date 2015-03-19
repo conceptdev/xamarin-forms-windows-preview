@@ -4,7 +4,7 @@ Working with ListView (Windows)
 Windows and Windows Phone versions for the [Windows PREVIEW](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/).
 
 
-![screenshot](screenshots/windows.png "Windows")
+![screenshot](Screenshots/windows.png "Windows")
 
 
 These samples relate to the [Working with ListView in Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/working-with/listview) doc.
