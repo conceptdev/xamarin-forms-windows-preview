@@ -15,11 +15,6 @@ namespace WorkingWithImages
 			//
 			// NOTE: uncomment the relevant page that you'd like to test
 			//
-            if (Device.OS == TargetPlatform.Windows && Device.Idiom == TargetIdiom.Phone)
-            {
-                MainPage = new LocalImages(); 
-                return;
-            }
             
             // C# examples
             var csTab = new TabbedPage();
@@ -36,6 +31,8 @@ namespace WorkingWithImages
             //xamlTab.Children.Add(new EmbeddedImagesXaml {Title = "Embedded", Icon="xaml.png"});
 
             //MainPage = xamlTab;
+
+
 			//return new LoadingPlaceholder ());
 		}
     }
