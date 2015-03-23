@@ -1,7 +1,7 @@
 FormsGallery (Windows)
 ============
 
-Windows and Windows Phone versions for the Windows PREVIEW.
+Windows and Windows Phone versions for the [Windows PREVIEW](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/windows/).
 
 ![](Screenshots/windows.png)
 
