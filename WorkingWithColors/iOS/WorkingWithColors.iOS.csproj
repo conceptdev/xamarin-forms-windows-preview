@@ -9,7 +9,7 @@
     <RootNamespace>WorkingWithColors.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>WorkingWithColorsiOS</AssemblyName>
-    <NuGetPackageImportStamp>13df52ea</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>31f755f4</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -124,6 +124,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
