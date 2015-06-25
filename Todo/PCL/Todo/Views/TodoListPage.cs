@@ -20,6 +20,8 @@ namespace Todo
 					(typeof (TodoItemCell));
 			listView.ItemSelected += (sender, e) => {
 				var todoItem = (TodoItem)e.SelectedItem;
+                if (todoItem == null) return; // HACK:???
+
 				var todoPage = new TodoItemPage();
 				todoPage.BindingContext = todoItem;
 
@@ -59,7 +61,7 @@ namespace Todo
 					Navigation.PushAsync(todoPage);
 				}, 0, 0);
 			}
-			if (Device.OS == TargetPlatform.WinPhone)
+			if (Device.OS == TargetPlatform.WinPhone || Device.OS == TargetPlatform.Windows)
 			{
 				tbi = new ToolbarItem("Add", "add.png", () =>
 					{
@@ -91,7 +93,14 @@ namespace Todo
 		{
 			base.OnAppearing ();
 			// reset the 'resume' id, since we just want to re-start here
-			((App)App.Current).ResumeAtTodoId = -1;
+            try
+            {
+                ((App)App.Current).ResumeAtTodoId = -1;
+            }
+            catch (Exception se)
+            {
+                Debug.WriteLine("Couldn't reset " + se.Message);
+            }
 			listView.ItemsSource = App.Database.GetItems ();
 		}
 	}
