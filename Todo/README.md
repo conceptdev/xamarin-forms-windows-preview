@@ -1,13 +1,17 @@
-Todo (Xamarin.Forms)
+Todo (Xamarin.Forms for Windows)
 =======
 
-Xamarin.Forms provides two solution templates for building cross-platform applications: PCL or Shared Project. This **Todo** sample application is provided using both templates. The Xamarin.Forms application code is fundamentally the same, except where the database connection is created (because it requires a file-system reference to the SQLite data file).
+Xamarin.Forms provides two solution templates for building cross-platform applications: PCL or Shared Project. 
+This **Todo** sample application is provided using both templates. The Xamarin.Forms application code is fundamentally 
+the same, except where the database connection is created (because it requires a file-system reference to the SQLite data file).
 
 ![screenshot](https://raw.githubusercontent.com/xamarin/xamarin-forms-samples/master/Todo/Screenshots/Todo-list-sml.png "ListView")
 
 ![screenshot](https://raw.githubusercontent.com/xamarin/xamarin-forms-samples/master/Todo/Screenshots/Todo-detail-sml.png "Detail View")
 
-**NOTE:** Windows Phone requires you to download <a href="http://www.sqlite.org/download.html#wp8" target="_blank">Precompiled Binaries for Windows Phone 8 VSIX</a> and install in Visual Studio; this enables the **SQLite for Windows Phone** Extension that you can then add to your app.
+**NOTE 1:** Windows 8.1 and Windows Phone 8.1 require you to include the **Visual Studio C++ 2013 Runtime Package** in order for `SQLitePCL.raw_basic` to work.
+
+**NOTE 2:** Windows Phone 8 Silverlight requires you to download <a href="http://www.sqlite.org/download.html#wp8" target="_blank">Precompiled Binaries for Windows Phone 8 VSIX</a> and install in Visual Studio; this enables the **SQLite for Windows Phone** Extension that you can then add to your app.
 
 PCL (Portable Class Library)
 ---
