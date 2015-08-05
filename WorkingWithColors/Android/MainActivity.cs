@@ -13,7 +13,7 @@ using Xamarin.Forms.Platform.Android;
 namespace WorkingWithColors.Android
 {
 	[Activity (Label = "WorkingWithColors.Android.Android", MainLauncher = true)]
-	public class MainActivity : AndroidActivity
+	public class MainActivity : FormsApplicationActivity // superclass new in 1.3
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -21,7 +21,7 @@ namespace WorkingWithColors.Android
 
 			Xamarin.Forms.Forms.Init (this, bundle);
 
-			SetPage (App.GetMainPage ());
+			LoadApplication(new App()); // new in 1.3
 		}
 	}
 }
