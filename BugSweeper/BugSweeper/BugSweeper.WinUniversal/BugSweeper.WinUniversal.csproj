@@ -131,7 +131,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BugSweeper\BugSweeper\BugSweeper.csproj">
+    <ProjectReference Include="..\BugSweeper\BugSweeper.csproj">
       <Project>{853d3300-5056-4005-9e71-e5d933889581}</Project>
       <Name>BugSweeper</Name>
     </ProjectReference>
