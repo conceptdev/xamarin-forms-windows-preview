@@ -5,6 +5,11 @@ Windows and Windows Phone versions for the [Windows PREVIEW](http://developer.xa
 
 ![screenshot](Screenshots/windows-sml.png "Windows")
 
+And UWP (Windows Universal):
+
+![screenshot](Screenshots/windows-uwp.png "Universal")
+
+
 These samples relate to the [Working with Colors in Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/working-with/colors/) doc.
 
 ![screenshot](https://raw.githubusercontent.com/xamarin/xamarin-forms-samples/master/WorkingWithColors/Screenshots/Colors-sml.png "Colors")
