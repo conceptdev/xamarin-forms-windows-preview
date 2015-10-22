@@ -8,4 +8,5 @@
     xmlns:forms="using:Xamarin.Forms.Platform.WinRT"
     mc:Ignorable="d">
 
+
 </forms:WindowsPage>
